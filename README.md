@@ -6,5 +6,13 @@
 ## react-redux; redux-toolkit; redux-thunk
 #### react-redux: useDispatch(), useSelector()
 #### redux-toolkit: 
+#### createSlice
 ```javascript
-createSlice({name:'',initialState,reducers: methodOne(state,action){},methodTwo(state,action){}}), configureStore()
+const mySliceOne = createSlice(
+{name:'',
+initialState,
+reducers: methodOne(state,action){},
+methodTwo(state,action){}
+})
+
+#### configureStore()
