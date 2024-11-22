@@ -10,7 +10,7 @@
 ## react-redux; redux-toolkit; redux-thunk
 #### react-redux: useDispatch(), useSelector()
 #### redux-toolkit: 
-#### createSlice
+#### createSlice()
 ```javascript
 const mySliceOne = createSlice(
 {name:'',
